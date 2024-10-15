@@ -19,4 +19,6 @@ I believe the professor was impressed, despite pointing out an embarrassing mist
 |---|---------|
 | [Balboa 32U4](https://www.pololu.com/product/3575) | You need to have a robot to balance. |
 | [LSM6 Arduino](https://github.com/pololu/lsm6-arduino) | Functions to interface with the motors and sensor hardware. |
+
+
 Follow the Arduino library installation guide, and have fun!
