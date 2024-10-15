@@ -12,9 +12,12 @@ static double START_BALANCING_ANGLE = 45;
 static int CALIBRATION_ITERATIONS = 100;
 static int UPDATE_DELAY = 10 // milliseconds
 
+// I had to fix a bug in the PID controller at some point that had an impact on the PID constants.
+// Since I no longer have access to a Balboa 32U4 robot, I cannot test the performance characteristics of these constants.
+// If you use this code for your own balancing project, you will likely have to use different constants.
 static double KP = 1.3;
-static double KD = 10;
 static double KI = 0.2;
+static double KD = 10;
 
 
 extern double angle;
